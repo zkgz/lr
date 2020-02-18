@@ -9,6 +9,7 @@
 - VIF test .
 - t test
 - Optimization
+- p-value
 
 ## Regression
 - Simple linear regression 
