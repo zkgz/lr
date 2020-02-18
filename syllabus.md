@@ -13,12 +13,12 @@
 ## Regression
 - Simple linear regression 
 - Multiple linear regression
-- Support Vector Machine
 
 ## Classification
 - Bayesian Network
 - Multilayer Perceptron
 - Convolutional Neural Network
+- Support Vector Machine
 
 ## Parameter Estimation
 - Ordinary Least Squares .
