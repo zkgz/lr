@@ -5,14 +5,14 @@
 - matplotlib
 
 ## Statistics
-- R squared . 1
+- R squared `1`
 - VIF test .
 - t test
 - Optimization
 - p-value
 
 ## Regression
-- Simple linear regression 
+- Simple linear regression `2`
 - Multiple linear regression
 
 ## Classification
@@ -22,11 +22,11 @@
 - Support Vector Machine
 
 ## Parameter Estimation
-- Ordinary Least Squares .
+- Ordinary Least Squares `2`
 - Gradient Descent .
 
 ## Loss Function
-- Sum of Squared Error/Residual (Regression) . 1
+- Sum of Squared Error/Residual (Regression) . `1`
 - Cross Entropy (Classification) .
 
 ## Regularization
