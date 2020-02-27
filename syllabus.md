@@ -13,7 +13,7 @@
 
 ## Regression
 - Simple linear regression `2`
-- Multiple linear regression
+- Multiple linear regression `2`
 
 ## Classification
 - Bayesian Network
@@ -23,7 +23,7 @@
 
 ## Parameter Estimation
 - Ordinary Least Squares `2`
-- Gradient Descent .
+- Gradient Descent `3`
 
 ## Loss Function
 - Sum of Squared Error/Residual (Regression) . `1`
@@ -39,5 +39,3 @@
    - Weighted Profile Method
    - SMITH WATERMAN
    - NEEDLEMAN 
-   - 
-

@@ -27,33 +27,33 @@ X = pd.DataFrame([
 y = X.pop('y')
 
 
-theta0 = 0.5
-theta1 = 2
+theta0 = 10
+theta1 = 1
 y_pred = theta0 + theta1*(X)
 
-#t = np.linspace(-10, 10, 100)
-#f = np.sin(t)
+t = np.linspace(-10, 10, 100)
+f = np.square(t)
 #g = np.cos(t)
-#plt.figure(2)
-#plt.plot(t, f)
+plt.figure(2)
+plt.plot(t, f)
 #plt.plot(t, g)
 
 
-#lr = LinearRegression()
-#lr.fit(X, y)
-#y_pred = lr.predict(X)
+lr = LinearRegression()
+lr.fit(X, y)
+y_pred = lr.predict(X)
 
 # Plot outputs
 plt.figure(0)
 plt.scatter(X, y,  color='black')
 plt.plot(X, y_pred, color='blue', linewidth=3)
 #plt.gca().set_xlim([0,None])
-plt.title("theta0 = %s\n theta1 = %s\nMSE = %s"%(theta0, theta1, mean_squared_error(y, y_pred)))
+plt.title("theta0 = %s\n theta1 = %s\nMSE = %s"%(lr.coef_, lr.coef_, mean_squared_error(y, y_pred)))
 
 
 plt.figure(1)
-X = [0, 0.5, 1, 2]
-y = [2.32, 1.10, 0.38, 0.45]
+X = [0, 1, 2, 3, 4, 5, 10]
+y = [28, 19, 11, 6.16, 2.69, 1.2, 23]
 plt.scatter(X, y,  color='black')
 plt.plot()
 plt.show()
