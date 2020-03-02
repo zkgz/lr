@@ -31,11 +31,11 @@ theta0 = 10
 theta1 = 1
 y_pred = theta0 + theta1*(X)
 
-t = np.linspace(-10, 10, 100)
-f = np.square(t)
+#t = np.linspace(-10, 10, 100)
+#f = np.square(t)
 #g = np.cos(t)
-plt.figure(2)
-plt.plot(t, f)
+#plt.figure(2)
+#plt.plot(t, f)
 #plt.plot(t, g)
 
 
@@ -48,7 +48,7 @@ plt.figure(0)
 plt.scatter(X, y,  color='black')
 plt.plot(X, y_pred, color='blue', linewidth=3)
 #plt.gca().set_xlim([0,None])
-plt.title("theta0 = %s\n theta1 = %s\nMSE = %s"%(lr.coef_, lr.coef_, mean_squared_error(y, y_pred)))
+plt.title("theta0 = %s\n theta1 = %s\nMSE = %s"%(lr.intercept_, lr.coef_[0], mean_squared_error(y, y_pred)))
 
 
 plt.figure(1)
